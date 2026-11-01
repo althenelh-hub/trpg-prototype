@@ -11,7 +11,7 @@ Player's units control
   - canceling unit selection;
   - moving unit to the specified place;
   - canceling units movement and returning to the unit chosing mode
-  - displaying skill selection menu;
+  - displaying skill selection menu (displays only available to the current weapon);
   - canceling skill selection and returning unit to its starting position;
   - chosign available to the unit skill;
   - displaing sklls zone of effect/available targets;
@@ -36,5 +36,5 @@ Skill effect:
     way it is possible to customize skills without creating difficult hierachies of inheritance.
     
 Level effects:
-  - terrain effects. Terrains like forest cost to movement points to move unit through it. Tearrin effects are realised by using table of terrain -> penalty. This
+  - terrain effects. Terrains like forest cost movement points to move unit through it. Tearrin effects are realised by using table of terrain -> penalty. This
     way it is possible to avoid storing penalty value in every tile object on the map optimising memory usage. 
